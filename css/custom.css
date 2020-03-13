@@ -1,0 +1,489 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "FontAwesome";
+  font-weight: 200;
+  word-spacing: 1px;
+  letter-spacing: -1px;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  margin-left: 20px;
+}
+
+nav i {
+  margin-right: 20px;
+}
+
+.banniere {
+  background-image: url("../images/hero-image.jpg");
+  background-position: 0% 0%;
+  height: 80%;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banniere p {
+  margin:0;
+  margin-top: 20px;
+}
+
+.banniere button{
+  color:white;
+  background-color:  #e74c3c;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.banniere button:hover {
+  background-color: #d2322d ;
+}
+#home img {
+  background-repeat: no-repeat;
+  margin-bottom: 25px;
+}
+
+footer {
+  background-color: #e74c3c;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+footer img{
+  width:70%;
+  height: 30%;
+  margin-bottom: 30px;
+}
+
+.orange{
+  color: #e74c3c;
+}
+
+#get-involved{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+#get-involved button{
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 40px;
+}
+
+#who{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hl {
+  border-top: 0.1px solid #e74c3c;
+  width: 17%;
+}
+
+#who img {
+  margin-top: 50px;
+}
+
+.bg_circle {
+  background-color: #333333;
+  border-radius: 50%;
+  height:80px;
+  width: 80px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.fa-user {
+  content: "\f007";
+  color: white;
+}
+
+.fa-money {
+  color: white;
+}
+
+.fa-pencil {
+  color: white;
+}
+
+h2{
+  font-size: 30px;
+}
+
+.title_card{
+  font-size: 25px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.onglet {
+  display: none;
+}
+
+.banniere p{
+  margin:0;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.md_queries {
+  font-size: 15px !important;
+  width: 60%;
+  margin-left: 20% !important;
+  margin-right: 20%;
+  text-align: center;
+}
+
+.triche {
+  font-size: 10px;
+}
+
+@media only screen and (min-width: 991px) {
+
+  nav {
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .onglet {
+    display: flex;
+  }
+  .onglet p {
+    margin-right: 50px;
+  }
+  nav i {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  nav.onglet {
+    float : right !important;
+  }
+  .banniere {
+    background-position: 0% 7%;
+  }
+  .banniere p{
+    margin:0;
+    margin-top: 20px;
+    font-size: 50px;
+  }
+  .banniere button:hover {
+    background-color: #d2322d ;
+  }
+  .md_queries {
+    font-size: 20px !important;
+    width: 60%;
+    margin-left: 20% !important;
+    margin-right: 20%;
+    text-align: center;
+  }
+  .banniere button{
+    color:white;
+    background-color:  #e74c3c;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 25%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 35px;
+  }
+  .triche{
+    font-size:15px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 80% ;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #get-involved{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  .allcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  #home img {
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+  }
+
+  footer {
+    background-color: #e74c3c;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+  }
+  footer img {
+    width: 35% !important;
+    height: 20% !important;
+    margin-left: 15% !important;
+  }
+
+  .orange{
+    color: #e74c3c;
+  }
+
+  .hl {
+    border-top: 0.1px solid #e74c3c;
+    width: 7%;
+  }
+
+  .bg_circle {
+    background-color: #333333;
+    border-radius: 50%;
+    height:80px;
+    width: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
+  /* .fa {
+  height:50px;
+  width: 50px;
+  } */
+  .fa-user {
+    content: "\f007";
+    color: white;
+  }
+  .fa-money {
+
+    color: white;
+  }
+  .fa-pencil {
+
+    color: white;
+  }
+  /* .fa-bars:before {
+  content: "\f0c9";
+  } */
+  h2{
+    font-size: 30px;
+  }
+  .title_card{
+    font-size: 25px;
+  }
+  .bold {
+    font-weight: bold;
+  }
+
+}
+
+
+@media only screen and (min-width: 1199px) {
+
+  @font-face {
+    font-family: 'Arvo';
+    font-style: normal;
+    src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v13/tDbD2oWUg0MKqScQ7Q.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "FontAwesome";
+    font-weight: 200;
+    word-spacing: 1px;
+    letter-spacing: -1px;
+  }
+  nav {
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .onglet {
+    display: flex;
+  }
+  .onglet p {
+    margin-right: 50px;
+  }
+  .banniere button:hover {
+    background-color: #d2322d ;
+  }
+  nav img {
+    margin-left: 20px;
+  }
+  nav i {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .banniere {
+    background-image: url("../images/hero-image.jpg");
+    background-position: 0% 7%;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+
+  }
+  .banniere p{
+    margin:0;
+    margin-top: 20px;
+    font-size: 50px;
+  }
+  .md_queries {
+    font-size: 20px !important;
+    width: 60%;
+    margin-left: 20% !important;
+    margin-right: 20%;
+    text-align: center;
+  }
+  .banniere button{
+    color:white;
+    background-color:  #e74c3c;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 15%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+  }
+  .triche{
+    font-size:10px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 20% ;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .allcard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  }
+  #home img {
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+  }
+
+  footer {
+    background-color: #e74c3c;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+  }
+  footer img{
+    width:30% !important;
+    height: 25% !important;
+
+    margin-left: 15%;
+  }
+  .orange{
+    color: #e74c3c;
+  }
+
+  .hl {nt
+    border-top: 0.1px solid #e74c3c;
+    width: 7%;
+  }
+
+  .bg_circle {
+    background-color: #333333;
+    border-radius: 50%;
+    height:80px;
+    width: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
+  .fa-user {
+    content: "\f007";
+    color: white;
+  }
+  .fa-money {
+
+    color: white;
+  }
+  .fa-pencil {
+
+    color: white;
+  }
+  /* .fa-bars:before {
+  content: "\f0c9";
+  } */
+  h2{
+    font-size: 30px;
+  }
+  .title_card{
+    font-size: 25px;
+  }
+  .bold {
+    font-weight: bold;
+  }
+
+}
